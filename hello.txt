@@ -1,0 +1,15 @@
+If an IP packet arrives at a router and the TTL is 1 (and the destination IP is not the router itself) which of the following will occur?
+
+Question 1 options:
+
+The router will look in its routing table and determine the number of hops remaining and then it will increment the TTL and forward the packet.
+
+
+The router will drop the packet and send nothing
+
+
+The router will drop the packet and send an ICMP “Timed Exceed In Transit” message to the previous router
+
+
+The router will drop the packet and send an ICMP “Timed Exceed In Transit” message to the source IP of the packet
+
